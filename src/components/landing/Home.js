@@ -12,7 +12,7 @@ const Home = () => {
             <div id="contact-info" class="vcard">
 
 
-                <h1 className="fn">C'thulhu</h1>
+                <h1 className="fn">Rahul Chauhan</h1>
 
                 <p>
                     Cell: <span className="tel">09910896761</span><br />
