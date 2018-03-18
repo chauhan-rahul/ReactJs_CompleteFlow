@@ -7,7 +7,7 @@ const Home = () => {
 
         <div id="page-wrap">
 
-            <img src={image} class="img-thumbnail" alt="Photo of Rahul" id="pic" />
+            <img src={image} alt="Photo of Rahul" id="pic" />
 
             <div id="contact-info" class="vcard">
 
