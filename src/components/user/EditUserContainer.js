@@ -72,7 +72,7 @@ export class AddOrEditUserContainer extends React.Component {
 
 
 const mapStateToProps = (state, ownProps) => {
-    const userId = ownProps.match.params.id; //from the path '/course/:id'
+    const userId = ownProps.match.params.id;
 
     if (userId && state.selectedUserReducer.user && userId === state.selectedUserReducer.user.id) {
         var user = state.selectedUserReducer.user;
